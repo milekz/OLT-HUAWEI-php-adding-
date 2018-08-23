@@ -18,9 +18,9 @@ if($_SESSION['zalogowany']!= true){
 
 
 $arr_ontadd = array("\r\n","\n","\r","\t");
-$adres = '192.168.50.5';
-$login = 'testowy';
-$haslo = '123testowy!@#';
+$adres = '127.0.0.0';
+$login = 'login';
+$haslo = 'password';
 $polaczenie = new PHPTelnet();
 if ($polaczenie == false){
     echo "nie udalo sie polaczyc";
